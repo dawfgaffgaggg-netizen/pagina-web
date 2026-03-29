@@ -7,10 +7,10 @@ exports.handler = async (event) => {
   const CLIENT_SECRET = process.env.DISCORD_CLIENT_SECRET;
   const BOT_TOKEN     = process.env.DISCORD_BOT_TOKEN;
   const GUILD_ID      = process.env.DISCORD_GUILD_ID;
-  const REDIRECT_URI  = 'https://oceanhub.netlify.app/';
+  const REDIRECT_URI  = 'https://pagina-web-teal-three.vercel.app/';
 
   const headers = {
-    'Access-Control-Allow-Origin': 'https://oceanhub.netlify.app',
+    'Access-Control-Allow-Origin': 'https://pagina-web-teal-three.vercel.app/',
     'Content-Type': 'application/json',
   };
 
